@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/puppy"
+    android:paddingBottom="16dp"
+    tools:context="com.sourcey.givetime.freekibble">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:background="@color/heyorange"
+        android:onClick="open"
+        android:text="Open Freekibble"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/give_you_glory" />
+</RelativeLayout>

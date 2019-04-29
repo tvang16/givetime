@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/universe"
+    tools:context="com.sourcey.givetime.answer4earth">
+
+    <TextView
+        android:id="@+id/earth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:drawableLeft="@mipmap/ic_launcher_tree"
+        android:text="@+id/earth"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:fontFamily="@font/give_you_glory" />
+
+</RelativeLayout>

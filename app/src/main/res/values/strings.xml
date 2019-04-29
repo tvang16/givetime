@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GiveTime</string>
+
+    <string name="hello">Welcome!</string>
+    <string name="infoApp">GiveTime is targeted for the little minutes of your time standing in line, waiting for a class, or other small moments in life. The time is convenient for you to give, and it takes little to no effort to make an impact.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
